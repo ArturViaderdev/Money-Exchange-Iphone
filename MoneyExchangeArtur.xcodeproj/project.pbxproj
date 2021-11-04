@@ -1,0 +1,599 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		ED68F87F2188D1870044FB7A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED68F87E2188D1870044FB7A /* AppDelegate.swift */; };
+		ED68F8812188D1870044FB7A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED68F8802188D1870044FB7A /* ViewController.swift */; };
+		ED68F8842188D1870044FB7A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ED68F8822188D1870044FB7A /* Main.storyboard */; };
+		ED68F8862188D1890044FB7A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = ED68F8852188D1890044FB7A /* Assets.xcassets */; };
+		ED68F8892188D1890044FB7A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ED68F8872188D1890044FB7A /* LaunchScreen.storyboard */; };
+		ED68F8942188D1890044FB7A /* MoneyExchangeArturTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED68F8932188D1890044FB7A /* MoneyExchangeArturTests.swift */; };
+		ED68F89F2188D1890044FB7A /* MoneyExchangeArturUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED68F89E2188D1890044FB7A /* MoneyExchangeArturUITests.swift */; };
+		ED68F8AD2188DF9F0044FB7A /* Moneda.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED68F8AC2188DF9F0044FB7A /* Moneda.swift */; };
+		EDA76DE0218F843A004D03E0 /* Controladoradmin.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDA76DDF218F843A004D03E0 /* Controladoradmin.swift */; };
+		EDA76DE2218F8A4E004D03E0 /* Variables.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDA76DE1218F8A4E004D03E0 /* Variables.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		ED68F8902188D1890044FB7A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = ED68F8732188D1870044FB7A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = ED68F87A2188D1870044FB7A;
+			remoteInfo = MoneyExchangeArtur;
+		};
+		ED68F89B2188D1890044FB7A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = ED68F8732188D1870044FB7A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = ED68F87A2188D1870044FB7A;
+			remoteInfo = MoneyExchangeArtur;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		ED68F87B2188D1870044FB7A /* MoneyExchangeArtur.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MoneyExchangeArtur.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		ED68F87E2188D1870044FB7A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		ED68F8802188D1870044FB7A /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		ED68F8832188D1870044FB7A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		ED68F8852188D1890044FB7A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		ED68F8882188D1890044FB7A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		ED68F88A2188D1890044FB7A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		ED68F88F2188D1890044FB7A /* MoneyExchangeArturTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MoneyExchangeArturTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		ED68F8932188D1890044FB7A /* MoneyExchangeArturTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MoneyExchangeArturTests.swift; sourceTree = "<group>"; };
+		ED68F8952188D1890044FB7A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		ED68F89A2188D1890044FB7A /* MoneyExchangeArturUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MoneyExchangeArturUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		ED68F89E2188D1890044FB7A /* MoneyExchangeArturUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MoneyExchangeArturUITests.swift; sourceTree = "<group>"; };
+		ED68F8A02188D1890044FB7A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		ED68F8AC2188DF9F0044FB7A /* Moneda.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Moneda.swift; sourceTree = "<group>"; };
+		EDA76DDF218F843A004D03E0 /* Controladoradmin.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Controladoradmin.swift; sourceTree = "<group>"; };
+		EDA76DE1218F8A4E004D03E0 /* Variables.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Variables.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		ED68F8782188D1870044FB7A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ED68F88C2188D1890044FB7A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ED68F8972188D1890044FB7A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		ED68F8722188D1870044FB7A = {
+			isa = PBXGroup;
+			children = (
+				ED68F87D2188D1870044FB7A /* MoneyExchangeArtur */,
+				ED68F8922188D1890044FB7A /* MoneyExchangeArturTests */,
+				ED68F89D2188D1890044FB7A /* MoneyExchangeArturUITests */,
+				ED68F87C2188D1870044FB7A /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		ED68F87C2188D1870044FB7A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				ED68F87B2188D1870044FB7A /* MoneyExchangeArtur.app */,
+				ED68F88F2188D1890044FB7A /* MoneyExchangeArturTests.xctest */,
+				ED68F89A2188D1890044FB7A /* MoneyExchangeArturUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		ED68F87D2188D1870044FB7A /* MoneyExchangeArtur */ = {
+			isa = PBXGroup;
+			children = (
+				ED68F8AC2188DF9F0044FB7A /* Moneda.swift */,
+				ED68F87E2188D1870044FB7A /* AppDelegate.swift */,
+				ED68F8802188D1870044FB7A /* ViewController.swift */,
+				ED68F8822188D1870044FB7A /* Main.storyboard */,
+				ED68F8852188D1890044FB7A /* Assets.xcassets */,
+				ED68F8872188D1890044FB7A /* LaunchScreen.storyboard */,
+				ED68F88A2188D1890044FB7A /* Info.plist */,
+				EDA76DDF218F843A004D03E0 /* Controladoradmin.swift */,
+				EDA76DE1218F8A4E004D03E0 /* Variables.swift */,
+			);
+			path = MoneyExchangeArtur;
+			sourceTree = "<group>";
+		};
+		ED68F8922188D1890044FB7A /* MoneyExchangeArturTests */ = {
+			isa = PBXGroup;
+			children = (
+				ED68F8932188D1890044FB7A /* MoneyExchangeArturTests.swift */,
+				ED68F8952188D1890044FB7A /* Info.plist */,
+			);
+			path = MoneyExchangeArturTests;
+			sourceTree = "<group>";
+		};
+		ED68F89D2188D1890044FB7A /* MoneyExchangeArturUITests */ = {
+			isa = PBXGroup;
+			children = (
+				ED68F89E2188D1890044FB7A /* MoneyExchangeArturUITests.swift */,
+				ED68F8A02188D1890044FB7A /* Info.plist */,
+			);
+			path = MoneyExchangeArturUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		ED68F87A2188D1870044FB7A /* MoneyExchangeArtur */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = ED68F8A32188D1890044FB7A /* Build configuration list for PBXNativeTarget "MoneyExchangeArtur" */;
+			buildPhases = (
+				ED68F8772188D1870044FB7A /* Sources */,
+				ED68F8782188D1870044FB7A /* Frameworks */,
+				ED68F8792188D1870044FB7A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MoneyExchangeArtur;
+			productName = MoneyExchangeArtur;
+			productReference = ED68F87B2188D1870044FB7A /* MoneyExchangeArtur.app */;
+			productType = "com.apple.product-type.application";
+		};
+		ED68F88E2188D1890044FB7A /* MoneyExchangeArturTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = ED68F8A62188D1890044FB7A /* Build configuration list for PBXNativeTarget "MoneyExchangeArturTests" */;
+			buildPhases = (
+				ED68F88B2188D1890044FB7A /* Sources */,
+				ED68F88C2188D1890044FB7A /* Frameworks */,
+				ED68F88D2188D1890044FB7A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				ED68F8912188D1890044FB7A /* PBXTargetDependency */,
+			);
+			name = MoneyExchangeArturTests;
+			productName = MoneyExchangeArturTests;
+			productReference = ED68F88F2188D1890044FB7A /* MoneyExchangeArturTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		ED68F8992188D1890044FB7A /* MoneyExchangeArturUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = ED68F8A92188D1890044FB7A /* Build configuration list for PBXNativeTarget "MoneyExchangeArturUITests" */;
+			buildPhases = (
+				ED68F8962188D1890044FB7A /* Sources */,
+				ED68F8972188D1890044FB7A /* Frameworks */,
+				ED68F8982188D1890044FB7A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				ED68F89C2188D1890044FB7A /* PBXTargetDependency */,
+			);
+			name = MoneyExchangeArturUITests;
+			productName = MoneyExchangeArturUITests;
+			productReference = ED68F89A2188D1890044FB7A /* MoneyExchangeArturUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		ED68F8732188D1870044FB7A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1010;
+				LastUpgradeCheck = 1010;
+				ORGANIZATIONNAME = "Artur Viader Mataix";
+				TargetAttributes = {
+					ED68F87A2188D1870044FB7A = {
+						CreatedOnToolsVersion = 10.1;
+					};
+					ED68F88E2188D1890044FB7A = {
+						CreatedOnToolsVersion = 10.1;
+						TestTargetID = ED68F87A2188D1870044FB7A;
+					};
+					ED68F8992188D1890044FB7A = {
+						CreatedOnToolsVersion = 10.1;
+						TestTargetID = ED68F87A2188D1870044FB7A;
+					};
+				};
+			};
+			buildConfigurationList = ED68F8762188D1870044FB7A /* Build configuration list for PBXProject "MoneyExchangeArtur" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = ED68F8722188D1870044FB7A;
+			productRefGroup = ED68F87C2188D1870044FB7A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				ED68F87A2188D1870044FB7A /* MoneyExchangeArtur */,
+				ED68F88E2188D1890044FB7A /* MoneyExchangeArturTests */,
+				ED68F8992188D1890044FB7A /* MoneyExchangeArturUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		ED68F8792188D1870044FB7A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ED68F8892188D1890044FB7A /* LaunchScreen.storyboard in Resources */,
+				ED68F8862188D1890044FB7A /* Assets.xcassets in Resources */,
+				ED68F8842188D1870044FB7A /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ED68F88D2188D1890044FB7A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ED68F8982188D1890044FB7A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		ED68F8772188D1870044FB7A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ED68F8812188D1870044FB7A /* ViewController.swift in Sources */,
+				EDA76DE0218F843A004D03E0 /* Controladoradmin.swift in Sources */,
+				ED68F87F2188D1870044FB7A /* AppDelegate.swift in Sources */,
+				ED68F8AD2188DF9F0044FB7A /* Moneda.swift in Sources */,
+				EDA76DE2218F8A4E004D03E0 /* Variables.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ED68F88B2188D1890044FB7A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ED68F8942188D1890044FB7A /* MoneyExchangeArturTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ED68F8962188D1890044FB7A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ED68F89F2188D1890044FB7A /* MoneyExchangeArturUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		ED68F8912188D1890044FB7A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = ED68F87A2188D1870044FB7A /* MoneyExchangeArtur */;
+			targetProxy = ED68F8902188D1890044FB7A /* PBXContainerItemProxy */;
+		};
+		ED68F89C2188D1890044FB7A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = ED68F87A2188D1870044FB7A /* MoneyExchangeArtur */;
+			targetProxy = ED68F89B2188D1890044FB7A /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		ED68F8822188D1870044FB7A /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				ED68F8832188D1870044FB7A /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		ED68F8872188D1890044FB7A /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				ED68F8882188D1890044FB7A /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		ED68F8A12188D1890044FB7A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		ED68F8A22188D1890044FB7A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		ED68F8A42188D1890044FB7A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = "LaunchImage-2";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = MoneyExchangeArtur/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = ArturViader.MoneyExchangeArtur;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		ED68F8A52188D1890044FB7A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = "LaunchImage-2";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = MoneyExchangeArtur/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = ArturViader.MoneyExchangeArtur;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		ED68F8A72188D1890044FB7A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = MoneyExchangeArturTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = ArturViader.MoneyExchangeArturTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MoneyExchangeArtur.app/MoneyExchangeArtur";
+			};
+			name = Debug;
+		};
+		ED68F8A82188D1890044FB7A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = MoneyExchangeArturTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = ArturViader.MoneyExchangeArturTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MoneyExchangeArtur.app/MoneyExchangeArtur";
+			};
+			name = Release;
+		};
+		ED68F8AA2188D1890044FB7A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = MoneyExchangeArturUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = ArturViader.MoneyExchangeArturUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = MoneyExchangeArtur;
+			};
+			name = Debug;
+		};
+		ED68F8AB2188D1890044FB7A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = MoneyExchangeArturUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = ArturViader.MoneyExchangeArturUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = MoneyExchangeArtur;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		ED68F8762188D1870044FB7A /* Build configuration list for PBXProject "MoneyExchangeArtur" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ED68F8A12188D1890044FB7A /* Debug */,
+				ED68F8A22188D1890044FB7A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		ED68F8A32188D1890044FB7A /* Build configuration list for PBXNativeTarget "MoneyExchangeArtur" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ED68F8A42188D1890044FB7A /* Debug */,
+				ED68F8A52188D1890044FB7A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		ED68F8A62188D1890044FB7A /* Build configuration list for PBXNativeTarget "MoneyExchangeArturTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ED68F8A72188D1890044FB7A /* Debug */,
+				ED68F8A82188D1890044FB7A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		ED68F8A92188D1890044FB7A /* Build configuration list for PBXNativeTarget "MoneyExchangeArturUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ED68F8AA2188D1890044FB7A /* Debug */,
+				ED68F8AB2188D1890044FB7A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = ED68F8732188D1870044FB7A /* Project object */;
+}
